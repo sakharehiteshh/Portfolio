@@ -7,7 +7,9 @@ export const Hero = () => {
 
   const mainGif = getImageUrl("hero/HitMemoji2.gif");
   const hoveredGif = getImageUrl("hero/HitMemoji.gif");
-
+  const openResume = () => {
+    window.open('https://drive.google.com/file/d/1QIyhcrvI1zCQv6pBQyQ5x8Y-k2vk6Q8m/view?usp=drive_link', '_blank');
+  };
   
   const [isPaused, setIsPaused] = useState(false);
   
@@ -41,9 +43,9 @@ Thank you for taking the time to learn more about me. I look forward to the oppo
 
 </marquee>
 </div>
-          <a href="assets/Resume.docx" download class={styles.contactBtn}>
-            Download Resume
-          </a>
+          <button onClick={openResume} class={styles.contactBtn}>Resume</button> 
+            
+          
       </div>
       <div className={styles.heroImg}>
 

@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
+  
   return (
     <nav className={styles.navbar}>
       <h1 className={styles.title}>
