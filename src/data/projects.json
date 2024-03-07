@@ -1,26 +1,37 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Blog Application",
+    "imageSrc": "projects/blog.gif",
+    "description": "Built a blog application with PostgreSQL, Django, and Social Auth for user blogging.",
+    "skills": ["Python", "Django", "PostgreSQL","SocialAuth"],
+    "source": ""
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "ChatBot with User Authentication",
+    "imageSrc": "projects/chatbot.gif",
+    "description": "Developed a chatting AI bot to talk like a Virtual Assistant.",
+    "skills": ["Python", "Machine Learning"],
+    "source": ""
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Fraud Detection System",
+    "imageSrc": "projects/fraud-detection.gif",
+    "description": "Built using machine learning & data mining techniques for identifying fraudulent vehicle insurance claims.",
+    "skills": ["Python", "Machine Learning", "Data Mining"],
+    "source": ""
+  },
+  {
+    "title": "Heart Disease Predictor",
+    "imageSrc": "projects/heart-disease.gif",
+    "description": "Developed machine learning classifiers and executed benchmarking experiments for prominent machine learning algorithms.",
+    "skills": ["Python", "Machine Learning"],    
+    "source": ""
+  },
+  {
+    "title": "Analysis of Most common hashtags on Twitter.",
+    "imageSrc": "projects/twitter-analysis.gif",
+    "description": "Identified the most common hashtags and their associated topics and analyzed the impact of removing less common hashtags on the dataset.",
+    "skills": ["Python", "Data Analysis"],
+    "source": ""
   }
 ]

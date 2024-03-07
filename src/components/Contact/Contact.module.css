@@ -14,7 +14,7 @@
 
 .text h2 {
   font-size: 80px;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 
@@ -40,7 +40,7 @@
 
 .link img{
   margin-right: 20px;
-  margin-bottom: -15px;
+  margin-bottom: -5px;
   transition: 0.5s;
 }
 .link img:hover {

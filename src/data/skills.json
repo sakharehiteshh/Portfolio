@@ -1,11 +1,47 @@
 [
   {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "skills/c-sharp.png"
+  },
+  {
+    "title": "C",
+    "imageSrc": "skills/c.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/cpp.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
   {
     "title": "CSS",
     "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "Angular",
+    "imageSrc": "skills/angular.png"
   },
   {
     "title": "React",
@@ -16,15 +52,99 @@
     "imageSrc": "skills/node.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "Express",
+    "imageSrc": "skills/express.png"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "skills/django.png"
+  },
+  {
+    "title": "Flask",
+    "imageSrc": "skills/flask.png"
+  },
+  {
+    "title": "Spring",
+    "imageSrc": "skills/spring.png"
+  },
+  {
+    "title": "Postman",
+    "imageSrc": "skills/postman.png"
+  },
+  {
+    "title": "Apache Spark",
+    "imageSrc": "skills/spark.png"
   },
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
   },
   {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.png"
+  },
+  {
+    "title": "SQLite3",
+    "imageSrc": "skills/sqlite3.png"
+  },
+  {
+    "title": "Oracle",
+    "imageSrc": "skills/oracle.png"
+  },
+  {
+    "title": "Amazon Web Services",
+    "imageSrc": "skills/aws.png"
+  },
+  {
+    "title": "Google Cloud",
+    "imageSrc": "skills/gcp.png"
+  },
+  {
+    "title": "Microsoft Azure",
+    "imageSrc": "skills/azure.png"
+  },
+  {
+    "title": "Heroku",
+    "imageSrc": "skills/heroku.png"
+  },
+  {
+    "title": "ASP .NET",
+    "imageSrc": "skills/asp-dot-net.png"
+  },
+  {
+    "title": "Databricks",
+    "imageSrc": "skills/databricks.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
+  },
+  {
+    "title": "Redis",
+    "imageSrc": "skills/redis.png"
+  },
+  {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "T-SQL",
+    "imageSrc": "skills/t-sql.png"
+  },
+  {
+    "title": "PL-SQL",
+    "imageSrc": "skills/pl-sql.png"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "skills/php.png"
   }
 ]

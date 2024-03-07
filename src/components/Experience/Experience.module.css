@@ -10,7 +10,7 @@
 .title {
   color: var(--color-text);
   font-size: 35px;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
@@ -48,12 +48,14 @@
 
 .skillImageContainer img {
   width: 75px;
+  object-fit: contain;
 }
 
 .skill p {
-  font-size: 25px;
+  font-size: 15px;
   font-family: var(--font-roboto);
-  font-weight: 500;
+  font-weight: 400;
+  display: flex;
 }
 
 .history {
@@ -84,7 +86,7 @@
 
 .historyItemDetails h3 {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .historyItemDetails p {

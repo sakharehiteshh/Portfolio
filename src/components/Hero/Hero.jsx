@@ -41,9 +41,9 @@ Thank you for taking the time to learn more about me. I look forward to the oppo
 
 </marquee>
 </div>
-        <a href="mailto:sakharehiteshh@email.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+          <a href="assets/Resume.docx" download class={styles.contactBtn}>
+            Download Resume
+          </a>
       </div>
       <div className={styles.heroImg}>
 

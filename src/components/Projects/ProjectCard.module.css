@@ -8,6 +8,7 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  height: 35em;
 }
 
 .image {
@@ -16,7 +17,7 @@
 
 .title {
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .description {
@@ -59,3 +60,12 @@
   background: var(--color-primary);
   padding: 1px 22px;
 }
+
+.link img{
+  transition: 0.5s;
+}
+.link img:hover {
+  transform: translateY(-10px);
+
+}
+
