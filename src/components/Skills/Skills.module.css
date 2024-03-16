@@ -80,5 +80,10 @@
       width: 100%;
       flex-direction: row;
       justify-content: center;
+      
+    }
+
+    .skill{
+      max-width: calc(50% - 28px);
     }
 }
