@@ -4,7 +4,7 @@
     "organisation": "Devoir Software Solutions",
     "startDate": "Jan, 2023",
     "endDate": "May, 2023",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "experiences": ["React","Node","REST Api", "Cloud Deployments", "AWS", "CI/CD"],
     "imageSrc": "history/company.png"
   },
   {
@@ -12,7 +12,7 @@
     "organisation": "Nimbus Technologies",
     "startDate": "Jan, 2019",
     "endDate": "May, 2021",
-    "experiences": [""],
+    "experiences": ["Angular","Azure","ETL", "Spark & Databricks", "Azure IoT Hub", "REST Api"],
     "imageSrc": "history/company.png"
   }
 ]

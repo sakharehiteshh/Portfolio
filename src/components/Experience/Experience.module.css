@@ -19,49 +19,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 14px;
-}
-
-.skills {
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 37px;
-}
-
-.skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 11px;
-}
-
-.skillImageContainer {
-  background-color: var(--color-secondary);
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 120px;
-}
-
-.skillImageContainer img {
-  width: 75px;
-  object-fit: contain;
-}
-
-.skill p {
-  font-size: 15px;
-  font-family: var(--font-roboto);
-  font-weight: 400;
-  display: flex;
+  margin-top: 50px;
 }
 
 .history {
-  width: 45%;
+  width: -webkit-fill-available;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 40px;
 }
 
@@ -71,13 +35,15 @@
   align-items: center;
   gap: 17px;
   background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   border-radius: 10px;
   padding: 24px;
+  width: 100%;
+
 }
 
 .historyItem img {
-  width: 50px;
+  width: 70px;
 }
 
 .historyItemDetails {
@@ -88,19 +54,28 @@
   font-size: 30px;
   font-weight: 400;
 }
+.historyItemDetails h4 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 5%;
+
+}
 
 .historyItemDetails p {
   font-size: 20px;
   font-weight: 300;
+  margin-top: 5%;
 }
 
 .historyItemDetails ul {
   margin-top: 6px;
   list-style-position: inside;
   font-size: 25px;
-  list-style-type: disc;
+  list-style-type: circle;
+  flex-direction: row;
   margin-left: 17px;
 }
+
 
 @media screen and (max-width: 830px) {
   .content {
@@ -118,5 +93,6 @@
   .history {
     width: 100%;
     gap: 9px;
+    flex-direction: column;
   }
 }

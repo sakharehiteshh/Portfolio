@@ -24,20 +24,8 @@
     "imageSrc": "skills/c-sharp.png"
   },
   {
-    "title": "C",
-    "imageSrc": "skills/c.png"
-  },
-  {
     "title": "C++",
     "imageSrc": "skills/cpp.png"
-  },
-  {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
   },
   {
     "title": "Angular",
@@ -58,6 +46,30 @@
   {
     "title": "Django",
     "imageSrc": "skills/django.png"
+  },
+  {
+    "title": "Amazon Web Services",
+    "imageSrc": "skills/aws.png"
+  },
+  {
+    "title": "Google Cloud",
+    "imageSrc": "skills/gcp.png"
+  },
+  {
+    "title": "Microsoft Azure",
+    "imageSrc": "skills/azure.png"
+  },
+  {
+    "title": "C",
+    "imageSrc": "skills/c.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
   },
   {
     "title": "Flask",
@@ -94,18 +106,6 @@
   {
     "title": "Oracle",
     "imageSrc": "skills/oracle.png"
-  },
-  {
-    "title": "Amazon Web Services",
-    "imageSrc": "skills/aws.png"
-  },
-  {
-    "title": "Google Cloud",
-    "imageSrc": "skills/gcp.png"
-  },
-  {
-    "title": "Microsoft Azure",
-    "imageSrc": "skills/azure.png"
   },
   {
     "title": "Heroku",
