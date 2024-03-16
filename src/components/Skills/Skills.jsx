@@ -16,7 +16,7 @@ export const Skills = () => {
   };
 
   // Define the number of skills to initially display and the increment when "Show More" is clicked
-  const initialSkillsToShow = 15;
+  const initialSkillsToShow = 13;
   const incrementSkills = 5;
   const totalSkills = showAllSkills ? skills.length : initialSkillsToShow;
   
@@ -35,11 +35,15 @@ export const Skills = () => {
             </div>
           );
         })}
+        <div className={styles.buttonWrapper}>
         {skills.length > initialSkillsToShow && (
           <button className={styles.skillImageContainer} onClick={toggleSkills}>
             <img src={showAllSkills ? hideImage : showMoreImage} alt={showAllSkills ? "Hide" : "Show More"} />
           </button>
         )}
+        <p className={styles.altText}>{showAllSkills ? "Hide" : "Show More"}</p>
+        </div>
+        
       </div>
     </section>
   );
