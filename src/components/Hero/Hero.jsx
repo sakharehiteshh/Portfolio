@@ -8,7 +8,7 @@ export const Hero = () => {
   const mainGif = getImageUrl("hero/HitMemoji2.gif");
   const hoveredGif = getImageUrl("hero/HitMemoji.gif");
   const openResume = () => {
-    window.open('https://drive.google.com/file/d/1LhwOHm4p-6HtVzpZe-z38v_sbGJZEtST/view?usp=drive_link', '_blank');
+    window.open('https://drive.google.com/file/d/1mI1pgsCrZIexSEyts0Lf1rQWVcF6N1Io/view', '_blank');
   };
   
   const [isPaused, setIsPaused] = useState(false);
