@@ -28,10 +28,24 @@
     "source": "https://github.com/sakharehiteshh/ModelClassification.git"
   },
   {
-    "title": "Analysis of Most common hashtags on Twitter.",
+    "title": "Twitter Hashtags Analysis.",
     "imageSrc": "projects/twitter-analysis.gif",
     "description": "Identified the most common hashtags and their associated topics and analyzed the impact of removing less common hashtags on the dataset.",
     "skills": ["Python", "Data Analysis"],
     "source": "https://github.com/sakharehiteshh/TwitterHashtagAnalysis.git"
+  },
+  {
+    "title": "Transaction Service",
+    "imageSrc": "projects/transaction.gif",
+    "description": "Developed a transaction service that handles credit and debit, where every transaction updates the balance and authorization declines are recorded even if they don't affect the balance.",
+    "skills": ["SpringBoot", "Java"],
+    "source": "https://github.com/sakharehiteshh/TwitterHashtagAnalysis.git"
+  },
+  {
+    "title": "Social Media App Clone",
+    "imageSrc": "projects/socialmedia.gif",
+    "description": "Developed social media app clone with real-time chat and robust user authentication. Users can create profiles, connect with friends, share updates, and engage in instant messaging.",
+    "skills": ["ReactJS", "MongoDB","NodeJS"],
+    "source": "https://github.com/sakharehiteshh/SocialMediaApp.git"
   }
 ]
