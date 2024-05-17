@@ -39,7 +39,7 @@
     "imageSrc": "projects/transaction.gif",
     "description": "Developed a transaction service that handles credit and debit, where every transaction updates the balance and authorization declines are recorded even if they don't affect the balance.",
     "skills": ["SpringBoot", "Java"],
-    "source": "https://github.com/sakharehiteshh/TwitterHashtagAnalysis.git"
+    "source": "https://github.com/sakharehiteshh/TransactionService.git"
   },
   {
     "title": "Social Media App Clone",
