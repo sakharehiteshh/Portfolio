@@ -4,8 +4,8 @@
   position: relative;
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
+  padding: 75px;
+  margin-top: 130px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
@@ -13,7 +13,7 @@
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -58,12 +58,12 @@
 }
 
 .aboutItem h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
 }
 
 .aboutItem p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 100;
 }
 
@@ -87,7 +87,7 @@
   }
 
   .aboutItems {
-    margin-top: 29px;
+    margin-top: 30px;
   }
 
   .aboutItem {

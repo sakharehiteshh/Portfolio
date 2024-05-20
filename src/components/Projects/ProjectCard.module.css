@@ -16,13 +16,13 @@
 }
 
 .title {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 400;
 }
 
 .description {
   margin-top: 6px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
 }
 
@@ -57,7 +57,7 @@
   font-size: 20px;
   font-weight: 200;
   border-radius: 100px;
-  background: var(--color-primary);
+  background: linear-gradient(180deg, #637ad4 0%, #132a53 100%);
   padding: 1px 22px;
 }
 

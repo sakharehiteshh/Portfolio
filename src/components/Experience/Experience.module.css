@@ -9,7 +9,7 @@
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -51,18 +51,18 @@
 }
 
 .historyItemDetails h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
 }
 .historyItemDetails h4 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   margin-top: 5%;
 
 }
 
 .historyItemDetails p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   margin-top: 5%;
 }
