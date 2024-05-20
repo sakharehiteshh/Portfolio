@@ -11,15 +11,15 @@
 }
 
 .title {
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 200;
   text-decoration: none;
   color: var(--color-text);
 }
 
 .logo{
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }
 
 .menuBtn {
