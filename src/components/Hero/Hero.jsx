@@ -27,7 +27,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Hitesh</h1>
 
-        <div
+        <div className={styles.marqueeWrapper}
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     >

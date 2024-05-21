@@ -10,6 +10,7 @@
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
+  z-index: 1;
 }
 
 .text h2 {
@@ -74,11 +75,12 @@
   }
 
   .text  h2{
-    font-size: 70px;
+    font-size: 45px;
   }
   
   .text p {
     font-size: 25px;
+    font-weight: 200;
   }
 
   .links {

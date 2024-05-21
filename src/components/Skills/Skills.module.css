@@ -78,12 +78,15 @@
       align-items: center;
       gap: 34px;
     }
+
+    .title{
+      margin-bottom: 40px;
+    }
   
     .skills {
       width: 100%;
       flex-direction: row;
       justify-content: center;
-      
     }
 
     .skill{

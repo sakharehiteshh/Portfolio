@@ -121,13 +121,26 @@ button{
   z-index: 0;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1024px) {
   .container {
     flex-direction: column-reverse;
   }
 
   .content {
     align-items: center;
+  }
+
+  .heroImg{
+    margin-inline-start: -35px;
+  }
+  .title{
+    font-size: 50px;
+  }
+  .marqueeWrapper{
+    margin-inline-start: 30px;
+  }
+  .description{
+    margin: 0 0 20 0px;  
   }
 }
 

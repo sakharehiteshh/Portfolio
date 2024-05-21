@@ -17,7 +17,6 @@ export const Skills = () => {
 
   // Define the number of skills to initially display and the increment when "Show More" is clicked
   const initialSkillsToShow = 19;
-  const incrementSkills = 5;
   const totalSkills = showAllSkills ? skills.length : initialSkillsToShow;
   
   

@@ -6,6 +6,8 @@
   margin-left: 10%;
   margin-right: 10%;
   zoom: 80%;
+  z-index: 1;
+
 }
 
 .title {
@@ -93,7 +95,7 @@
 
   .history {
     width: 100%;
-    gap: 9px;
+    gap: 20px;
     flex-direction: column;
   }
 }

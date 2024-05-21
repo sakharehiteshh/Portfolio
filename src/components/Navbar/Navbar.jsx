@@ -7,7 +7,8 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   
   return (
-    <nav className={styles.navbar}>
+    <div className={styles.navWrapper}>
+      <nav className={styles.navbar}>
       <div className={styles.logowrap}>
       <img className={styles.logo} src={getImageUrl("nav/LogoHS.png")} alt="HITESH SAKHARE"/>
       <h1 className={styles.title}></h1>
@@ -42,5 +43,6 @@ export const Navbar = () => {
         </ul>
       </div>
     </nav>
+    </div>
   );
 };
