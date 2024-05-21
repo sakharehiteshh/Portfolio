@@ -9,6 +9,8 @@
   padding: 18px 24px;
   max-width: 345px;
   height: 35em;
+  zoom: 80%;
+  z-index: 1;
 }
 
 .image {

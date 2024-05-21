@@ -60,32 +60,32 @@
     "imageSrc": "skills/azure.png"
   },
   {
-    "title": "C",
-    "imageSrc": "skills/c.png"
+    "title": "Spring",
+    "imageSrc": "skills/spring.png"
   },
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "title": "Redis",
+    "imageSrc": "skills/redis.png"
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "Apache Spark",
+    "imageSrc": "skills/spark.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
   },
   {
     "title": "Flask",
     "imageSrc": "skills/flask.png"
   },
   {
-    "title": "Spring",
-    "imageSrc": "skills/spring.png"
-  },
-  {
     "title": "Postman",
     "imageSrc": "skills/postman.png"
-  },
-  {
-    "title": "Apache Spark",
-    "imageSrc": "skills/spark.png"
   },
   {
     "title": "MongoDB",
@@ -112,6 +112,18 @@
     "imageSrc": "skills/heroku.png"
   },
   {
+    "title": "C",
+    "imageSrc": "skills/c.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
     "title": "ASP .NET",
     "imageSrc": "skills/asp-dot-net.png"
   },
@@ -120,20 +132,8 @@
     "imageSrc": "skills/databricks.png"
   },
   {
-    "title": "Docker",
-    "imageSrc": "skills/docker.png"
-  },
-  {
-    "title": "Redis",
-    "imageSrc": "skills/redis.png"
-  },
-  {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
-  },
-  {
-    "title": "Git",
-    "imageSrc": "skills/git.png"
   },
   {
     "title": "T-SQL",

@@ -49,7 +49,7 @@ export const Hero = () => {
       </div>
       <div className={styles.heroImg}>
 
-        <div className="gifWrapper" 
+        <div className={styles.gifWrapper} 
         onMouseEnter={(e) => { e.currentTarget.children[0].src = hoveredGif; }}
         onMouseLeave={(e) => { e.currentTarget.children[0].src = mainGif; }}
         >
