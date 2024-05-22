@@ -13,6 +13,7 @@
 
 .content {
   display: flex;
+  flex: 8;
   flex-direction: column;
   align-items: flex-start;
   color: var(--color-text);
@@ -136,37 +137,52 @@ button{
   .title{
     font-size: 50px;
   }
-  .marqueeWrapper{
-    margin-inline-start: 30px;
+  .scrollContainer{
+    margin-inline-start: 10px;
   }
-  .description{
-    margin: 0 0 20 0px;  
+  .scrollText{
+    display: -webkit-box;
+    margin: 0 0 0 0px;  
   }
 }
 
 
-.scroll-container {
-  height: 100vh;
+.scrollContainer {
+  height: 325px; /* Adjust this height as needed */
   overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
-.scroll-text {
-  position: relative;
-  animation: scroll 10s linear infinite;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  text-align: center;
+.scrollText {
+  position: absolute;
+  animation: scroll 20s linear infinite;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: var(--font-roboto);
+  text-align: left;
+  padding-right: 90px;
+  animation-play-state: running; /* This line controls the animation */
 }
+
+
 
 @keyframes scroll {
   0% {
-    transform: translateY(0);
+    transform: translateY(100%);
+    opacity: 1;
+  }
+  0.1% {
+    transform: translateY(20%);
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
   }
   100% {
     transform: translateY(-100%);
+    opacity: 0;
   }
 }

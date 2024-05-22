@@ -1,18 +1,16 @@
 @import "../../vars.css";
 
 .navWrapper{
-  position: sticky;
-  top: 0;
+  width: 100%;
+  z-index: 2;
 }
-
 .navbar {
-  
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 60px;
   z-index: 2;
-  margin-top: 2%;
+  margin-top: 1%;
   padding-left: 10%;
   padding-right: 10%;
   zoom: 80%;
@@ -29,6 +27,7 @@
 .logo{
   width: 70px;
   height: 70px;
+  cursor: pointer;
 }
 
 .menuBtn {
@@ -55,6 +54,7 @@
 }
 .menuItems li {
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .menuItems li:hover{

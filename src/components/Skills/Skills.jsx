@@ -21,7 +21,7 @@ export const Skills = () => {
   
   
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="skills">
         <h1 className={styles.title}>SKILLS</h1>
       <div className={styles.skills}>
         {skills.slice(0, totalSkills).map((skill, id) => {
