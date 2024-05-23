@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
     <div className={styles.navWrapper} id="nav">
       <nav className={styles.navbar}>
-        <Link to="hero" spy={true} smooth={true} offset={-1000} duration={500}>
+        <Link to="hero" spy={true} smooth={true} offset={-1000} duration={200}>
       <div className={styles.logowrap}>
       <img className={styles.logo} src={getImageUrl("nav/LogoHS.png")} alt="HITESH SAKHARE"/>
       <h1 className={styles.title}></h1>
@@ -31,19 +31,19 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <Link to="about" spy={true} smooth={true} offset={-300} duration={500}>About</Link>
+            <Link to="about" spy={true} smooth={true} offset={-300} duration={100}>About</Link>
           </li>
           <li>
-            <Link to="skills" spy={true} smooth={true} offset={-400} duration={500}>Skills</Link>
+            <Link to="skills" spy={true} smooth={true} offset={-400} duration={100}>Skills</Link>
           </li>
           <li>
-            <Link to="experience" spy={true} smooth={true} offset={-500} duration={500}>Experience</Link>
+            <Link to="experience" spy={true} smooth={true} offset={-500} duration={100}>Experience</Link>
           </li>
           <li>
-            <Link to="projects" spy={true} smooth={true} offset={-50} duration={500}>Projects</Link>
+            <Link to="projects" spy={true} smooth={true} offset={-50} duration={100}>Projects</Link>
           </li>
           <li>
-            <Link to="contact" spy={true} smooth={true} offset={-300} duration={500}>Contact</Link>
+            <Link to="contact" spy={true} smooth={true} offset={-300} duration={100}>Contact</Link>
           </li>
         </ul>
       </div>
