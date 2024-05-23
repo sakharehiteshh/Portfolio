@@ -34,20 +34,7 @@
   -webkit-background-clip: text;
 }
 
-.description {
-  --max-lines: 11;
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-line-clamp: var(--max-lines);
-  -webkit-box-orient: vertical;
 
-  font-size: 25px;
-  font-weight: 200;
-  font-family: var(--font-roboto);
-  margin-bottom: 52px;
-  margin-right: 90px;
-  gap: 60px;
-}
 
 .contactBtn {
   text-decoration: none;
@@ -137,21 +124,25 @@ button{
   .title{
     font-size: 50px;
   }
-  .scrollContainer{
+  .scrollContainer {
     margin-inline-start: 10px;
+    /* width: 200%; Adjusted width */
+    /* margin-left: 100px; */
   }
-  .scrollText{
-    display: -webkit-box;
-    margin: 0 0 0 0px;  
+  
+  .scrollText {
+    font-size: 25px; /* Adjusted font size */
+    margin: 0;
+    padding-right: 20px; /* Adjust padding if necessary */
   }
 }
 
 
 .scrollContainer {
   height: 325px; /* Adjust this height as needed */
+  width: 50vw;
   overflow: hidden;
   position: relative;
-  width: 100%;
   margin-bottom: 50px;
 }
 
@@ -163,7 +154,6 @@ button{
   font-weight: 200;
   font-family: var(--font-roboto);
   text-align: left;
-  padding-right: 90px;
   animation-play-state: running; /* This line controls the animation */
 }
 
