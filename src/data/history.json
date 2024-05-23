@@ -1,9 +1,9 @@
 [
   {
     "role": "Software Engineer",
-    "organisation": "Devoir Software Solutions",
+    "organisation": "ITMC Systems",
     "startDate": "Jan, 2023",
-    "endDate": "May, 2023",
+    "endDate": "Present",
     "experiences": ["React","Node","REST Api", "Cloud Deployments", "AWS", "CI/CD"],
     "imageSrc": "history/company.png"
   },
