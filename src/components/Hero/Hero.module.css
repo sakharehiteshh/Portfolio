@@ -37,7 +37,7 @@
 
 
 .contactBtn {
-  text-decoration: none;
+  box-sizing: border-box;
   background: linear-gradient(180deg, #576bbc57 0%, #132a53 100%);
   color: var(--color-text);
   border-radius: 100px;
@@ -45,13 +45,21 @@
   font-weight: 400;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  border-color: #0091ff;
+  border-width: 5px;  
 }
 
 button{
-  border-color: #4ca8ff;
-  border-width: 5px;
+  box-sizing: border-box;
 }
 
+button:hover {
+  margin-top: -8px;
+  border: #5794f5 solid;
+  border-width: 4px;  
+  color: #ffffff;
+}
 
 
 .heroImg {
