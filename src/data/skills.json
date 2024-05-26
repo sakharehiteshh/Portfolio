@@ -44,8 +44,8 @@
     "imageSrc": "skills/express.png"
   },
   {
-    "title": "Django",
-    "imageSrc": "skills/django.png"
+    "title": "Kotlin",
+    "imageSrc": "skills/kotlin.png"
   },
   {
     "title": "Amazon Web Services",
@@ -74,6 +74,10 @@
   {
     "title": "Apache Spark",
     "imageSrc": "skills/spark.png"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "skills/django.png"
   },
   {
     "title": "Docker",
