@@ -58,13 +58,13 @@
   color: var(--color-text);
   font-size: 20px;
   font-weight: 200;
-  border-radius: 100px;
+  border-radius: 25px;
   background: linear-gradient(180deg, #637ad4 0%, #132a53 100%);
   padding: 1px 22px;
 }
 
 .link img{
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .link img:hover {
   transform: translateY(-10px);

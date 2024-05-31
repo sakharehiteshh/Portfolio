@@ -48,7 +48,8 @@ export const Hero = () => {
           </div>
 
         </div>
-        <button onClick={openResume} className={styles.contactBtn}>Resume</button>
+        <button onClick={openResume} >Resume</button>
+        {/* className={styles.contactBtn} */}
       </div>
       <div className={styles.heroImg}>
         <div

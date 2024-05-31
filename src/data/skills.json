@@ -48,6 +48,10 @@
     "imageSrc": "skills/kotlin.png"
   },
   {
+    "title": "Swift",
+    "imageSrc": "skills/swift.png"
+  },
+  {
     "title": "Amazon Web Services",
     "imageSrc": "skills/aws.png"
   },

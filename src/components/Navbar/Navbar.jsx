@@ -9,12 +9,12 @@ export const Navbar = () => {
   return (
     <div className={styles.navWrapper} id="nav">
       <nav className={styles.navbar}>
+          <div className={styles.logowrap}>
         <Link to="hero" spy={true} smooth={true} offset={-1000} duration={200}>
-      <div className={styles.logowrap}>
-      <img className={styles.logo} src={getImageUrl("nav/LogoHS.png")} alt="HITESH SAKHARE"/>
-      <h1 className={styles.title}></h1>
-      </div>
+            <img className={styles.logo} src={getImageUrl("nav/LogoHS.png")} alt="HITESH SAKHARE"/>
+            {/* <h1 className={styles.title}></h1> */}
         </Link>
+          </div>
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}

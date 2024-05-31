@@ -42,7 +42,7 @@
 .link img{
   margin-right: 20px;
   margin-bottom: -5px;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .link img:hover {
   transform: translateY(-10px);

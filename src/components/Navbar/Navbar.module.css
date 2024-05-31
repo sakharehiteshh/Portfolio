@@ -53,7 +53,7 @@
 
 }
 .menuItems li {
-  transition: 0.3s;
+  transition: 0.2s;
   cursor: pointer;
 }
 
@@ -101,5 +101,8 @@
   .menuOpen {
     display: flex;
     z-index: 1;
+  }
+  .logo{
+    cursor: pointer;
   }
 }
