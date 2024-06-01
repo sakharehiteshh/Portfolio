@@ -43,6 +43,9 @@
   margin-right: 20px;
   margin-bottom: -5px;
   transition: 0.2s;
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
 }
 .link img:hover {
   transform: translateY(-10px);
@@ -58,8 +61,7 @@
 }
 
 .link p {
-  margin-top: 8px;
-  padding-top: 8px;
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 830px) {

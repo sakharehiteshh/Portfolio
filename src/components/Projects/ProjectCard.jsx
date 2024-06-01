@@ -21,7 +21,7 @@ export const ProjectCard = ({
       
           <div className={styles.links}>
             <a href={source} target="_blank" className={styles.link}>
-            <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+            <img  src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
             </a>
           </div> 
       
