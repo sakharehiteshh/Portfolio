@@ -19,7 +19,7 @@
 
 .title {
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
   text-decoration: none;
   color: var(--color-text);
 }
@@ -27,6 +27,9 @@
 .logo{
   width: 70px;
   height: 70px;
+}
+.logowrap{
+  z-index: 2 !important;
   cursor: pointer;
 }
 
@@ -43,11 +46,12 @@
   gap: 47px;
   list-style: none;
   transition: 0.5s;
+  z-index: 2 !important;
 }
 
 .menuItems a {
   font-size: 25px;
-  font-weight: 200;
+  font-weight: 300;
   color: var(--color-text);
   text-decoration: none;
 

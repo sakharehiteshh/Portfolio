@@ -43,7 +43,7 @@ export const Navbar = () => {
             <Link to="projects" spy={true} smooth={true} offset={-50} duration={100}>Projects</Link>
           </li>
           <li>
-            <Link to="contact" spy={true} smooth={true} offset={-300} duration={100}>Contact</Link>
+            <Link to="contact" spy={true} smooth={true} offset={0} duration={100}>Contact</Link>
           </li>
         </ul>
       </div>

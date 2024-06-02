@@ -144,6 +144,7 @@ button:hover {
   }
 
   .scrollText {
+    zoom: 80%;
     font-size: 25px; /* Adjusted font size */
     margin: 0;
     padding-right: 20px; /* Adjust padding if necessary */
@@ -163,7 +164,7 @@ button:hover {
   animation: scroll 20s linear infinite;
   width: 100%;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
   font-family: var(--font-roboto);
   text-align: left;
   animation-play-state: running; /* This line controls the animation */
