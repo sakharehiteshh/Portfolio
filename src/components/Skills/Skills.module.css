@@ -61,35 +61,39 @@
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   
   .buttonWrapper p {
     margin-top: 10px;
   }
   
- button {
-  background-color: #132a53;
-  color: var(--color-text);
-  border-radius: 30px;
-  font-size: 30px;
-  font-weight: 400;
-  padding: 17px 26px;
-  cursor: pointer;
-  border: solid 5px #f9f9f9;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-button:hover {
-  
-  color: #4baeff;
-  border: solid 5px #4baeff;
-  transition: border 0.3s ease;
- 
-}
 
   .buttonWrapper p:hover{
     margin-bottom: 0px;
+  }
+
+  #button {
+    background: linear-gradient(180deg, #3f5da8c9 0%, #132a53 100%);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    padding: 17px 26px;
+    cursor: pointer;
+    border: solid 3px #f9f9f9;
+  }
+  
+  #button:hover {
+    
+    color: #ffffff;
+    border: solid 3px #ffffff;
+    transition: border 0.3s ease-in;
+    transition: color 0.3s ease;
+    box-shadow: 0 5px 15px #fffff1; 
   }
 
 
@@ -113,4 +117,5 @@ button:hover {
     .skill{
       max-width: calc(50% - 28px);
     }
+
 }

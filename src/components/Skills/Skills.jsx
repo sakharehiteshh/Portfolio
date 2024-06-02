@@ -36,9 +36,9 @@ export const Skills = () => {
         })}
         <div className={styles.buttonWrapper}>
         {skills.length > initialSkillsToShow && (
-          <button className={styles.skillImageContainer} onClick={toggleSkills}>
+          <div className={styles.skillImageContainer} id={styles.button} onClick={toggleSkills}>
             <img src={showAllSkills ? hideImage : showMoreImage} alt={showAllSkills ? "Hide" : "Show More"} />
-          </button>
+          </div>
         )}
         <p className={styles.altText}>{showAllSkills ? "Hide" : "Show More"}</p>
         </div>
