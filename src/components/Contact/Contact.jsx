@@ -74,7 +74,7 @@ export const Contact = () => {
             <input type="email" placeholder="Email" name="user_email" required />
             <textarea rows="15" placeholder="Message" name="message" required />
             <button type="submit">Submit</button>
-            {done && <p className={styles.thankYou}>Thank you, I'll contact you soon.</p>}
+            {done }{ <p className={styles.thankYou}>Thank you, I'll contact you soon.</p>}
           </form>
         </div>
       </div>
