@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  
+
   return (
     <div className={styles.navWrapper} id="nav">
       <nav className={styles.navbar}>
@@ -31,19 +31,19 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <Link to="about" spy={true} smooth={true} offset={-300} duration={100}>About</Link>
+            <Link to="about" spy={true} smooth={true} offset={-100} duration={100} aria-label="About" >About</Link>
           </li>
           <li>
-            <Link to="skills" spy={true} smooth={true} offset={-400} duration={100}>Skills</Link>
+            <Link to="skills" spy={true} smooth={true} offset={-400} duration={100} aria-label="Skills" >Skills</Link>
           </li>
           <li>
-            <Link to="experience" spy={true} smooth={true} offset={-500} duration={100}>Experience</Link>
+            <Link to="experience" spy={true} smooth={true} offset={-500} duration={100} aria-label="Experience" >Experience</Link>
           </li>
           <li>
-            <Link to="projects" spy={true} smooth={true} offset={-50} duration={100}>Projects</Link>
+            <Link to="projects" spy={true} smooth={true} offset={-50} duration={100} aria-label="Projects">Projects</Link>
           </li>
           <li>
-            <Link to="contact" spy={true} smooth={true} offset={0} duration={100}>Contact</Link>
+            <Link to="contact" spy={true} smooth={true} offset={0} duration={100} aria-label="Contact">Contact</Link>
           </li>
         </ul>
       </div>
