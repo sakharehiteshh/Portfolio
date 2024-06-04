@@ -85,17 +85,20 @@
     padding: 17px 26px;
     cursor: pointer;
     border: solid 3px #f9f9f9;
+    transition: border 0.3s ease-in, color 0.3s ease, box-shadow 0.3s ease;
+
   }
   
-  #button:hover {
-    
+  #button:hover, #button:focus {
     color: #ffffff;
     border: solid 3px #ffffff;
-    transition: border 0.3s ease-in;
-    transition: color 0.3s ease;
-    box-shadow: 0 5px 15px #fffff1; 
+    box-shadow: 0 5px 15px #fffff1;
   }
-
+  
+  #button:focus {
+    outline: none;
+  }
+  
 
   @media screen and (max-width: 830px) {
     .content {

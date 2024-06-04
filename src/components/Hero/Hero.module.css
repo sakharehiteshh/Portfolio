@@ -144,6 +144,7 @@ button:focus {
 
 .scrollContainer:hover {
   overflow-y: scroll;
+  cursor: ns-resize;
 }
 
 
