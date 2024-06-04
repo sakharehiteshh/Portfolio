@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -19,13 +19,27 @@ export const Hero = () => {
     }
   }, [isPaused]);
 
-  const handleMouseOver = () => {
+  const handleMouseOver = useCallback(() => {
     setIsPaused(true);
-  };
+  }, []);
 
-  const handleMouseOut = () => {
+  const handleMouseOut = useCallback(() => {
     setIsPaused(false);
-  };
+  }, []);
+
+  const handleGifMouseEnter = useCallback((e) => {
+    e.currentTarget.children[0].src = hoveredGif;
+  }, [hoveredGif]);
+
+  const handleGifMouseLeave = useCallback((e) => {
+    e.currentTarget.children[0].src = mainGif;
+  }, [mainGif]);
+
+  // Preload hovered GIF
+  useEffect(() => {
+    const img = new Image();
+    img.src = hoveredGif;
+  }, [hoveredGif]);
 
   return (
     <section className={styles.container} id="hero">
@@ -35,7 +49,6 @@ export const Hero = () => {
           className={styles.scrollContainer}
           onMouseOver={handleMouseOver}
           onMouseOut={handleMouseOut}
-         
         >
           <div className={styles.scrollText} ref={scrollContainerRef}>
             👋 Hello! I'm Hitesh Sakhare, a Software Engineer with a serious passion for using technology to unravel complex problems and craft captivating user experiences. My journey in software development is backed by a Master’s degree in Computer Science from the University of Dayton, and I approach every new project with an undying spirit for innovation and a comprehensive skill set.
@@ -46,16 +59,14 @@ export const Hero = () => {
             <br /><br />
             📈 Looking Ahead: I’m on the lookout for opportunities to collaborate with fellow tech enthusiasts and to tackle challenges that stretch the limits of software engineering. Whether it’s pioneering new applications or enhancing existing ones, I'm all about adding remarkable value and achieving great results.
           </div>
-
         </div>
-        <button onClick={openResume} >Resume</button>
-        {/* className={styles.contactBtn} */}
+        <button onClick={openResume} aria-label="Open Resume">Resume</button>
       </div>
       <div className={styles.heroImg}>
         <div
           className={styles.gifWrapper}
-          onMouseEnter={(e) => { e.currentTarget.children[0].src = hoveredGif; }}
-          onMouseLeave={(e) => { e.currentTarget.children[0].src = mainGif; }}
+          onMouseEnter={handleGifMouseEnter}
+          onMouseLeave={handleGifMouseLeave}
         >
           <img
             src={mainGif}
