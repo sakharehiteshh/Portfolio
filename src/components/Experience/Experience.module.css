@@ -99,3 +99,12 @@
     flex-direction: column;
   }
 }
+
+
+
+@media screen and (max-width: 380px){
+  .container{
+    zoom: 80%;
+  }
+}
+

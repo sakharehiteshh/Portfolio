@@ -108,3 +108,10 @@
     cursor: pointer;
   }
 }
+
+
+@media screen and (max-width: 380px){
+  .navWrapper{
+    zoom: 80%;
+  }
+}

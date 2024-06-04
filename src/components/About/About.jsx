@@ -3,7 +3,12 @@ import React from "react";
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
 
+
+
 export const About = () => {
+
+
+
   return (
     <section id="about">
       <div className={styles.container}>
@@ -50,3 +55,4 @@ export const About = () => {
     </section>
   );
 };
+

@@ -13,13 +13,13 @@
 }
 
 .title {
+  color: var(--color-text);
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.75px;
   text-transform: uppercase;
   z-index: 1;
   zoom: 80%;
-
 }
 
 .projects {
@@ -58,4 +58,18 @@
   border-radius: 764px;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
+}
+
+
+@media screen and (max-width: 768px){
+  .projects{
+    zoom: 87%;
+  }
+}
+
+
+@media screen and (max-width: 380px){
+  .container{
+    zoom: 80%;
+  }
 }

@@ -122,3 +122,10 @@
     }
 
 }
+
+
+@media screen and (max-width: 380px){
+  .container{
+    zoom: 70%;
+  }
+}

@@ -169,6 +169,8 @@ textarea::-webkit-scrollbar-thumb {
   }
   .formwrap{
     margin-top: 25px;
+    margin-bottom: 50px;
+
   }
   .thankYou{
     font-size: 20px;
@@ -196,6 +198,7 @@ textarea::-webkit-scrollbar-thumb {
 
   .formwrap{
     margin-top: 20px;
+    
   }
 
   .formwrap h1{
@@ -224,3 +227,24 @@ textarea::-webkit-scrollbar-thumb {
     zoom: 70%;
   }
 }
+
+@media screen and (max-width: 768px){
+ 
+
+  .formwrap{
+    zoom: 90%;
+    margin-bottom: 50px;
+  }
+}
+
+
+@media screen and (max-width: 380px){
+  #contact{
+    zoom: 75%;
+  }
+
+  .formwrap{
+    zoom: 95%;
+  }
+}
+
