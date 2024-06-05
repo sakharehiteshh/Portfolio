@@ -29,7 +29,7 @@ export const ScrollToTop = () => {
                     right: "50px",
                     height: "50px",
                     width: "50px",
-                }} onClick={scrollUp}><img className={styles.scrollTopImg}  src="../../../assets/skills/up.gif"></img></button>
+                }} onClick={scrollUp}><img className={styles.scrollTopImg}  src={scrollUpImg}></img></button>
             )}
         </div>
     );
