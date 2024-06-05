@@ -15,7 +15,11 @@
 
 .text{
   flex: 1;
-  zoom: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 50px;
 }
 
 .formwrap{
