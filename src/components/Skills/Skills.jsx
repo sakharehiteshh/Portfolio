@@ -21,7 +21,8 @@ export const Skills = () => {
   
   
   return (
-    <section className={styles.container} id="skills">
+   <div id="skills">
+     <section className={styles.container} >
         <h1 className={styles.title}>SKILLS</h1>
       <div className={styles.skills}>
         {skills.slice(0, totalSkills).map((skill, id) => {
@@ -42,9 +43,9 @@ export const Skills = () => {
         )}
         <p className={styles.altText}>{showAllSkills ? "Hide" : "Show More"}</p>
         </div>
-        
       </div>
     </section>
+   </div>
   );
 }
 
