@@ -72,13 +72,13 @@ export const Contact = () => {
             <input type="text" placeholder="Name" name="user_name" required />
             <input type="text" placeholder="Subject" name="user_subject" required />
             <input type="email" placeholder="Email" name="user_email" required />
-            <textarea rows="15" placeholder="Message" name="message" required />
+            <textarea rows="8" placeholder="Message" name="message" required />
             <button type="submit">Submit</button>
             {done && <p className={styles.thankYou}>Thank you, I'll contact you soon.</p>}
           </form>
         </div>
       </div>
-
+      <p className={styles.copyright}>Copyright © 2024 Hitesh Sakhare - All Rights Reserved.</p>
     </footer>
   );
 };
