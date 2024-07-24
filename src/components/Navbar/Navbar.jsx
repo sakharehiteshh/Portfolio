@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-scroll";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -10,7 +9,7 @@ export const Navbar = () => {
   if (!element) return;
   window.scroll({
     top: element.offsetTop - 20,
-    behavior: 'smooth',
+    behavior: "smooth"
   });
 };
   
