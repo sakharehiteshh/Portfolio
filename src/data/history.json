@@ -1,9 +1,17 @@
 [
   {
+    "role": " IT Systems Engineer",
+    "organisation": "Incredible Heart",
+    "startDate": "Aug, 2024",
+    "endDate": "Present",
+    "experiences": ["Angular","Azure","ETL", "Spark & Databricks", "Azure IoT Hub", "REST Api"],
+    "imageSrc": "history/company.png"
+  },
+  {
     "role": "Software Engineer",
     "organisation": "ITMC Systems",
     "startDate": "Jan, 2023",
-    "endDate": "Present",
+    "endDate": "Jul, 2024",
     "experiences": ["React","Node","REST Api", "Cloud Deployments", "AWS", "CI/CD"],
     "imageSrc": "history/company.png"
   },
