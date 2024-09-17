@@ -93,13 +93,19 @@
     justify-content: center;
   }
 
-  .history {
-    width: 100%;
-    gap: 20px;
-    flex-direction: column;
-  }
+ 
 }
 
+@media screen and (max-width: 1024px) {
+  .history {
+    width: 80%;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
 
 
 @media screen and (max-width: 380px){
