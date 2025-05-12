@@ -10,16 +10,16 @@
   {
     "role": "Software Engineer",
     "organisation": "ITMC Systems",
-    "startDate": "Jan, 2023",
+    "startDate": "Feb, 2024",
     "endDate": "Jul, 2024",
     "experiences": ["React","Node","REST Api", "Cloud Deployments", "AWS", "CI/CD"],
     "imageSrc": "history/company.png"
   },
   {
-    "role": "Software Engineer",
-    "organisation": "Nimbus Technologies",
-    "startDate": "Jan, 2019",
-    "endDate": "May, 2021",
+    "role": "Software Engineer Intern",
+    "organisation": "Devoir Software Solutions",
+    "startDate": "Jan, 2023",
+    "endDate": "May, 2023",
     "experiences": ["Angular","Azure","ETL", "Spark & Databricks", "Azure IoT Hub", "REST Api"],
     "imageSrc": "history/company.png"
   }
